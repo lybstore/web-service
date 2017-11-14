@@ -1,0 +1,30 @@
+*{
+  font-family: Open Sans;
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;  
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 50px;
+}
+
+div.innerElement {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
